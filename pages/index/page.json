@@ -1,0 +1,18 @@
+{
+    "title": "spacecraft",
+
+	"resultPath": "/home/github_node_modules/gmr/result",
+
+	"jsPackage": "all.js",
+	"cssPackage": "all.css",
+
+	"htmlPackage": "index.html",
+
+	"use": [
+		  "HashNavigator|3.*"
+	],
+
+	"debug": {
+		"css": [ "layout.css" ]
+	}
+}
