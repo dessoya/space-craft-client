@@ -7,7 +7,9 @@
 	},
 
 	"debug": {
-	    "repositories": [ "C:\\zh\\gravity-modules-ts" ],
+		"preprocess": [ "http://127.0.0.1:90/" ],
+
+	    "repositories": [ "C:\\zh\\gravity-modules-ts", "C:\\zh\\space-craft-client\\modules" ],
 
 		"http": {
 			"path": "C:\\zh\\http-space-craft"

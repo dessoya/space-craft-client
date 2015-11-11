@@ -10,6 +10,7 @@
 
 	"use": [
 		  "HashNavigator|3.*"
+		, "Section1|3.*"
 	],
 
 	"debug": {
