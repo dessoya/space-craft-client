@@ -1,6 +1,4 @@
 export class Section extends HashNavigator.Section {
-	getRE() {
-		return 's1'
-	}
+	public hashRE: string = 's1'
 }
  

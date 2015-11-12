@@ -1,7 +1,7 @@
 {
     "title": "spacecraft",
 
-	"resultPath": "/home/github_node_modules/gmr/result",
+	"resultPath": "c:\\zh\\http-space-craft-prod",
 
 	"jsPackage": "all.js",
 	"cssPackage": "all.css",
