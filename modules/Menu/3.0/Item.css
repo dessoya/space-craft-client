@@ -1,0 +1,28 @@
+
+a.ctrl-item {
+	width: 80px;
+	padding: 4px;
+	display: block;
+
+	color: #aaa;
+	background: transparent;
+
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+a.ctrl-item:hover,
+a.ctrl-item.active:hover {
+	color: #44a;
+
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+
+a.ctrl-item.active,
+a.ctrl-item.active:hover {
+	background: #444;
+
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
