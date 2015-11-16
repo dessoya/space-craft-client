@@ -11,6 +11,7 @@
 	"use": [
 		  "HashNavigator|3.*"
 		, "Section1|3.*"
+		, "Menu|3.*"
 	],
 
 	"debug": {

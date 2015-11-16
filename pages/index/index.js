@@ -1,6 +1,7 @@
 
 var HashNavigator	= require('HashNavigator')
   , Section1		= require('Section1')
+  , Menu			= require('Menu')
 
 module.exports = function() {
 
@@ -8,10 +9,13 @@ module.exports = function() {
 
 	var navigator = new HashNavigator.Navigator
 
-	navigator.add(new Section1)
+	navigator.addSection(new Section1)
 
-	navigator.start()
+	var menu = new Menu.Menu([ {title: 's1', hash: 's1' }, {title: 's2', hash: 's2' } ])
+	navigator.addPlugin(menu)
+	menu.place('#section_menu')
 
 	console.log(navigator)
 
+	navigator.start()
 }
