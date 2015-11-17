@@ -14,7 +14,7 @@ export class Item extends UI_Control.Control {
 	onHashChange(hash: string) {
 		var state: boolean = this._item.hash === hash
 		if (this._state !== state) {			
-			this.el.classList[this._state = state ? 'add' : 'remove']('active')
+			this.el.classList[ (this._state = state) ? 'add' : 'remove']('active')
 		}
 	}
 
